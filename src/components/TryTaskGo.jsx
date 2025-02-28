@@ -4,7 +4,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 const TryTaskGo = () => {
   return (
-    <div className="max-w-7xl mx-auto p-4 my-20 bg-zinc-100 rounded shadow">
+    <div className="max-w-7xl mx-auto p-4 my-10 lg:my-28 bg-zinc-100 rounded shadow">
       <div className="flex flex-col md:flex-row items-center justify-between">
         <div className="md:w-1/2 p-4">
           <h2 className="text-3xl md:text-5xl font-bold mb-4 md:mb-20">Try TaskGo for free. No credit card required, no software to install.</h2>

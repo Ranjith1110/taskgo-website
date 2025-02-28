@@ -3,7 +3,9 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Companies from './components/Companies';
 import TryTaskGo from './components/TryTaskGo';
-import BuyCredit from './components/BuyCredit';
+import Pricing from './components/Pricing';
+import Footer from './components/Footer';
+import Features from './components/Features';
 
 function App() {
   return (
@@ -12,6 +14,9 @@ function App() {
       <Hero />
       <Companies />
       <TryTaskGo />
+      <Features />
+      <Pricing  />
+      <Footer />
     </div>
   );
 }
