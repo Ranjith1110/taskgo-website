@@ -41,7 +41,17 @@ const Companies = () => {
                 {/* <div className="max-w-7xl h-screen mt-10 flex items-center justify-center mx-auto">
                     <iframe
                         className="w-full h-full"
-                        src="https://lookerstudio.google.com/embed/reporting/f549fe17-5a99-4451-9b75-e906d8e33f5c/page/wmH1E"
+                        src="https://app.fabric.microsoft.com/reportEmbed?reportId=61a85e65-f483-4562-8e3b-d89421ca5b3e&autoAuth=true&ctid=be039413-6351-4884-94f9-697882454fe4"
+                        frameBorder="0"
+                        style={{ border: 0 }}
+                        allowFullScreen
+                        sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
+                    ></iframe>
+                </div>
+                <div className="max-w-7xl h-screen mt-10 flex items-center justify-center mx-auto">
+                    <iframe
+                        className="w-full h-full"
+                        src="https://app.fabric.microsoft.com/reportEmbed?reportId=7599910b-cfa1-4d52-b311-8bd35b3854c7&autoAuth=true&ctid=be039413-6351-4884-94f9-697882454fe4"
                         frameBorder="0"
                         style={{ border: 0 }}
                         allowFullScreen
