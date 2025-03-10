@@ -93,7 +93,10 @@ const Features = () => {
           content: 'Provide a summary of user activities, allowing admins to track actions, task updates, and interactions of all users',
         },
         {
-          content: 'Filter tasks into "To-Do," "In Progress," or "Completed," allowing admins to manage and oversee all tasks efficiently.',
+          content: 'Filter tasks into "To-Do," "In Progress," or "Completed," allowing admins to manage and oversee all tasks efficiently.'
+        },
+        {
+          content: 'Admin view All the task assigned by user'
         }
       ],
     },
@@ -104,7 +107,7 @@ const Features = () => {
           content: "View a personal summary of the user's own activities and tasks",
         },
         {
-          content: 'Filter tasks into "To-Do," "In Progress," or "Completed," allowing admins to manage and oversee all tasks efficiently.',
+          content: 'Filter tasks into "To-Do," "In Progress," or "Completed," allowing admins to manage and oversee all tasks efficiently.'
         }
       ],
     }
@@ -112,7 +115,7 @@ const Features = () => {
 
   return (
     <div className="max-w-7xl mx-auto p-4 my-20">
-      <h2 className="text-5xl font-bold mb-12 text-center">Features</h2>
+      <h2 className="text-3xl md:text-5xl font-bold mb-12 text-center">Features</h2>
       <div className="space-y-4">
         {accordionData.map((item, index) => (
           <AccordionItem

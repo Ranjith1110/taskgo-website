@@ -23,7 +23,7 @@ const Companies = () => {
                         <div className="relative bg-transparent text-center text-black">
                             {/* <div className="absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-black/20 to-transparent rounded-full"></div>
                             <div className="absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-black/20 to-transparent rounded-full"></div> */}
-                            <h2 className='text-3xl md:text-4xl text-center font-bold p-7'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, facere?</h2>
+                            <h2 className='text-3xl md:text-5xl text-center font-bold p-7'>Brands that trust us</h2>
                         </div>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
